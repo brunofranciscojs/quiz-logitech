@@ -1,5 +1,5 @@
 # quiz-logitech
-https://brunofranciscu/quiz-logitech
+https://brunofranciscu.github.io/quiz-logitech
 
 Projeto realizado na empresa KaBum! em parceria com a marca Logitech.
 
