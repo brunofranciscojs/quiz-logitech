@@ -27,7 +27,7 @@ document.querySelectorAll('.card ol a').forEach(resposta =>{
             }else if (popular >= 3 && array.length > 5){result = 'popular'; localStorage.setItem('resultado',result)
             }else if (array.length > 5) {result = 'vainaonda' }
             else{ return true }
-        window.location = `https://kabum.com.br/hotsite/voltaasaulaslogitech-quiz/${result}.html`
+        window.location = `https://github.com/brunofranciscu/quiz-logitech/${result}.html`
         // window.location = `${result}.html`
     })
     
