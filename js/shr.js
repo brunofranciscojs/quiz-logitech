@@ -1,9 +1,9 @@
 var quizURL = window.location.href
 var result = quizURL.substring(quizURL.lastIndexOf('/') + 1).replace('.html','')
-document.querySelector('#ogurl').setAttribute('content','https://kabum.com.br/hotsite/voltaasaulaslogitech-quiz/');
+document.querySelector('#ogurl').setAttribute('content','https://github.com/brunofranciscu/quiz-logitech/');
 
 fetch(`${quizURL.replace(result+'.html','')}resultado.json`).then(response => response.json()).then(json =>{
-        document.querySelector('#tt').setAttribute('href',`https://twitter.com/intent/tweet?url=https://kabum.com.br/hotsite/voltaasaulaslogitech-quiz/${json.resultado[result].url}&text=${json.resultado[result].shr}`)
+        document.querySelector('#tt').setAttribute('href',`https://twitter.com/intent/tweet?url=https://github.com/brunofranciscu/quiz-logitech/${json.resultado[result].url}&text=${json.resultado[result].shr}`)
         console.log(document.querySelector('#tt'))
       })
 
@@ -25,5 +25,5 @@ fetch(`${quizURL.replace(result+'.html','')}resultado.json`).then(response => re
   console.log(localStorage);
 
 if(localStorage.getItem('resultado') == '' || localStorage.getItem('resultado') == "undefined" || localStorage.getItem('resultado') == null){
-  window.location = 'https://kabum.com.br/hotsite/voltaasaulaslogitech-quiz'
+  window.location = 'https://github.com/brunofranciscu/quiz-logitech'
 }
