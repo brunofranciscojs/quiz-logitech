@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  
+      <!-- Google Tag Manager -->
+      <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+          'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-PT5HKG');</script>
+    <!-- End Google Tag Manager -->
+
+
+  <title>Quem é você na Sala de Aula? Faça o teste e descubra!</title>
+  <meta name="description" content="">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Quem é você na Sala de Aula? Faça o teste e descubra!">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;0,700;0,900;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/css/uikit.min.css" />
+  <link href="css/reset-min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PT5HKG" height="0" width="0"
+    style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header>
+
+  <div class="navbarSite"
+  uk-sticky="media:@m; top: 600; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up;">
+  <div class="uk-container">
+    <nav class="uk-navbar-container uk-padding-small uk-padding-remove-horizontal uk-navbar-transparent" uk-navbar>
+
+      <div class="uk-navbar-left" style="width:100%;">
+        <ul class="uk-navbar-nav uk-visible@m" style="width:100%;">
+
+          <li><a href="https://www.kabum.com.br/" uk-scroll target="_blank"><img src="img/logo-kabum.png" alt=""></a></li>
+          <li><a href="#" uk-scroll target="_blank"><img src="img/logo-volta-aulas.webp" alt=""></a></li>
+          <li><a href="https://kabum.com.br/hotsite/voltaasaulaslogitech/" uk-scroll target="_blank">voltar para o <br>hotsite</a></li>
+        </ul>
+
+        <a class="uk-navbar-toggle uk-hidden@m uk-icon uk-navbar-toggle-icon uk-position-z-index" uk-navbar-toggle-icon="" uk-toggle="target: #offcanvas-overlay ">
+          <rect y="9" width="30" height="30"></rect>
+          <rect y="3" width="30" height="30"></rect>
+          <rect y="15" width="30" height="30"></rect>
+        </a>
+      </div>
+    </nav>
+  </div>
+
+  <div id="offcanvas-overlay" uk-offcanvas="overlay: true" class="uk-offcanvas">
+    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+      <ul class="uk-nav uk-nav-primary">
+        <li><a href="https://www.kabum.com.br/" uk-scroll target="_blank"><img src="img/logo-kabum.png" alt="" style="max-width: 150px; margin-bottom: 20px;"></a></li>
+        <li><a href="https://www.kabum.com.br/hotsite/quizlogitech-off/" uk-scroll target="_blank">voltar para o <br>hotsite</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+ 
+</header>
+
+<main class="uk-section cover">
+  <div class="uk-container main-container">
+
+    <div class="icones uk-container">
+      <img src="img/Icon-Caneta.png" alt="" data-depth=".07">
+      <img src="img/Icon-Caderno.png" alt="" data-depth="-.07">
+      <img src="img/Icon-Pincel.png" alt="" data-depth=".07">
+      <img src="img/Icon-Lápis.png" alt="" data-depth="-.07">
+    </div>
+
+    <div class="uk-flex shape">
+      
+      <div class="uk-width-1-2 left">
+        <img src="img/volta-as-aulas.webp" alt="">
+      </div>
+
+      <div class="uk-width-1-2 right">
+        <h3>QUIZ</h3>
+        <h2>QUEM É VOCÊ <BR>NA SALA DE AULA? </h2>
+        <hr>
+        <p>Faça o teste e descubra!</p>
+
+        <br>
+        <button id="startQuiz">COMEÇAR</button>
+      </div>
+
+    </div>
+
+  </div>
+</main>
+
+  <section id="quiz"> 
+    <div class="container">
+      <div class="icones uk-container">
+        <img src="img/Icon-Caneta.png" alt="" data-depth="-.07">
+        <img src="img/Icon-Caderno.png" alt="" data-depth=".07">
+        <img src="img/Icon-Pincel.png" alt="" data-depth="-.07">
+        <img src="img/Icon-Lápis.png" alt="" data-depth=".07">
+      </div>
+      <h2><span>quiz - </span>quem é você na sala de aula?</h3>
+
+      <div id="perguntas" class="uk-text-center">
+
+        <div id="pergunta-1" class="card">
+          <h3><span>1.</span> Na sala de aula, qual seu rolê?</h3>
+            <ol>
+              <li><a id="lider"><img src="img/1-LIDER.jpg" /> “Vem comigo, que é sucesso!” </a></li>
+              <li><a id="dofundao"><img src="img/1-FUNDAO.jpg" /> “Os últimos serão os primeiros.”</a></li>
+              <li><a id="doquedormenacarteira"><img src="img/1-DORME.jpg" /> “Não é sono, é tranquilidade.” </a></li>
+              <li><a id="popular"><img src="img/1-POPULAR.jpg" /> “Fale bem, fale mal, mas falem de mim” </a></li>
+              <li><a id="nerd"><img src="img/1-NERD.jpg" /> “Obrigado, cérebro.” </a></li>
+            </ol>
+        </div>
+
+        <div id="pergunta-2" class="card">
+          <h3><span>2.</span> Com qual meme você se identifica?</h3>
+            <ol>
+              <li><a id="lider"><img src="img/2-LIDER.jpg"></a></li>
+              <li><a id="dofundao"><img src="img/2-FUNDAO.jpg"></a></li>
+              <li><a id="doquedormenacarteira"><img src="img/2-DORME.jpg"></a></li>
+              <li><a id="popular"><img src="img/2-POPULAR.jpg"></a></li>
+              <li><a id="nerd"><img src="img/2-NERD.jpg"></a></li>
+            </ol>
+        </div>
+        
+        <div id="pergunta-3" class="card">
+          <h3><span>3.</span> Na hora de anotar a matéria, quem é você?</h3>
+            <ol>
+              <li><a id="lider"><img src="img/3-LIDER.gif" /> “Bora, meu time, todo mundo anotando!” </a></li>
+              <li><a id="dofundao"><img src="img/3-FUNDAO.gif" /> “Por que fazer agora o que pode ser feito amanhã?”</a></li>
+              <li><a id="doquedormenacarteira"><img src="img/3-DORME.gif" /> “Era pra anotar?” </a></li>
+              <li><a id="popular"><img src="img/3-POPULAR.gif" /> “Anotações no meu e-mail, hoje” </a></li>
+              <li><a id="nerd"><img src="img/3-NERD.gif" /> "Nada se perde, tudo se anota" </a></li>
+            </ol>
+        </div>
+
+        <div id="pergunta-4" class="card">
+          <h3><span>4.</span> Você disse FÉRIAS? Bora aproveitar o tempo:</h3>
+            <ol>
+              <li><a id="lider"><img src="img/4-LIDER.gif" /> “Vou aumentar meu poder de liderança” </a></li>
+              <li><a id="dofundao"><img src="img/4-FUNDAO.gif" /> Party everyday</a></li>
+              <li><a id="doquedormenacarteira"><img src="img/4-DORME.gif" /> “Não me chame, estou ocupado” </a></li>
+              <li><a id="popular"><img src="img/4-POPULAR.gif" /> “Os convites não param!” </a></li>
+              <li><a id="nerd"><img src="img/4-NERD.gif" /> “Agora vou jogar os 2846 jogos e assistir as 4035 séries da minha lista” </a></li>
+            </ol>
+        </div>
+
+        <div id="pergunta-5" class="card">
+          <h3><span>5.</span> Tô na mira do professor porque:</h3>
+            <ol>
+              <li><a id="lider"><img src="img/5-LIDER.gif" /> Fiz o trabalho sozinho: “Mas o trabalho era em grupo, Professor?!” </a></li>
+              <li><a id="dofundao"><img src="img/5-FUNDAO.gif" /> Causei durante a aula</a></li>
+              <li><a id="doquedormenacarteira"><img src="img/5-DORME.gif" /> "Foi só uma piscadinha" </a></li>
+              <li><a id="popular"><img src="img/5-POPULAR.gif" /> Mandei aquele zap fora de hora: “Era urgente!” </a></li>
+              <li><a id="nerd"><img src="img/5-NERD.gif" /> "Foi só um Wild Riftzinho" </a></li>
+            </ol>
+        </div>
+
+        <div id="pergunta-6" class="card">
+          <h3><span>6.</span> Você é um aluno… </h3>
+            <ol>
+              <li><a id="lider"><img src="img/6-LIDER.gif" /> "Deixa comigo!" </a></li>
+              <li><a id="dofundao"><img src="img/6-FUNDAO.gif" /> "Onde é a bagunça?"</a></li>
+              <li><a id="doquedormenacarteira"><img src="img/6-DORME.gif" /> "Posso fazer amanhã?" </a></li>
+              <li><a id="popular"><img src="img/6-POPULAR.gif" /> V.I.P. </a></li>
+              <li><a id="nerd"><img src="img/6-NERD.gif" /> "Nerd, sim. Conectado, sempre!" </a></li>
+            </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Inicio Google Analytics -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-2140951-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <!-- Fim Google Analytics -->
+
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.21/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.21/dist/js/uikit-icons.min.js"></script>
+  <script type="text/javascript" src="js/parallax.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
