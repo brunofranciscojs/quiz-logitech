@@ -1,0 +1,70 @@
+{
+    "resultado":{
+            "lider":
+            {
+                "titulo":"Siga o Mestre",
+                "purpleBox":"Você é aquele que busca <strong>PERFORMANCE</strong>",
+                "texto":"Seja pra organizar um trabalho em grupo, ou até mesmo dar aquela festa, é você que a galera chama!",
+                "logitech":"Se liga na seleção insana que a Logitech criou pra você começar os estudos do jeitinho que gosta!",
+                "char":"lider.webp",
+                "shr":"VEM COMIGO 🚀 - Acabei de fazer o Quiz de Volta Às Aulas da Logitech com o KaBuM! e descobri que tenho o perfil de SIGA O MESTRE dentro da sala de aula. Quer ver o seu? Dê o play no link e compartilha com os amigos:",
+                "url":"lider.html"
+            },
+
+            "dofundao":
+            {
+                "titulo":"Do Fundão",
+                "purpleBox":"Você é aquele que tem <strong>PERSONALIDADE</strong>",
+                "texto":"Você é aquele que agita a Turma do Fundão. O terror e o amor dos professores!",
+                "logitech":"Bora voltar com tudo pra aula? Dê o play nessa seleção que a Logitech dropou só pra você!",
+                "char":"dofundao.webp" ,
+                "shr":"FUNDÃO FOREVER 🤘 - Só se liga! Fiz agora o Quiz da Logitech com o Ninja e dei match com o perfil certo pra mim: DO FUNDÃO. Bora fazer o seu também! Dá play no link pra fazer e compartilha com a galera do fundo:",
+                "url":"dofundao.html"
+            },
+
+            "doquedormenacarteira":
+            {
+                "titulo":"Só mais 5 <br />minutinhos!",
+                "purpleBox":"Você é aquele que busca <strong>CONFORTO</strong>",
+                "texto" : "O modo soneca no despertador já faz parte de todas as suas manhãs, né?!",
+                "logitech" : "Só não dorme no ponto (nem na carteira)! Vem ver o kit que a Logitech tem pra você curtir suas aulas.",
+                "char" : "doquedormenacarteira.webp",
+                "shr":"ZZZZZZZZZZ 😴 - Caramba, quase que perco a hora aqui pra te falar essa! Fiz o Quiz da Logitech com o KaBuM! pra ver quem sou eu na sala de aula e caí com: SÓ MAIS 5 MINUTINHOS. Será que o seu é diferente? Faz aí pra gente ver e compartilha:",
+                "url":"doquedormenacarteira.html"
+            },
+
+            "popular":
+            {
+                "titulo":"Popular",
+                "purpleBox":"Você é aquele que tem <strong>ESTILO</strong>",
+                "texto": "Você tá sempre no Hype entre a galera, e adora socializar com geral.",
+                "logitech": "Yes, aqui é Lista VIP! Pronto pra voltar com tudo pra aula? Vem ver a wish list exclusiva que a Logi criou pra você!",
+                "char": "popular.webp",
+                "shr":"TÔ NA VIP LIST 😎 - Hey, só se liga no que eu acabei de saber! Fiz esse Quiz do Ninja com a Logitech, e só confirmei o que já sabia: SOU POPULAR na sala de aula! Será que vc também é super pop como eu? Vem ver aqui:",
+                "url":"popular.html"
+            },
+
+            "nerd":
+            {
+                "titulo":"Nerd",
+                "purpleBox" : "Você é aquele que busca <strong>PRODUTIVIDADE</strong>",
+                "texto" : "Séries, Games, HQs e tudo do mundo Tech? Nem precisa perguntar ao Google. Você tá sempre ligado nas novidades.",
+                "logitech" : "Por isso, conecte-se já com esses itens que são + de 8000 que a Logitech sumonou pra você aqui!",
+                "char" : "nerd.webp",
+                "shr":"BAZINGA 🖖 - Vem ver o que eu descobri nesse Quiz do Ninja com a Logitech, que insano! Confirmando meus cálculos, meu perfil de aluno dentro da sala de aula é: NERD. Será que o seu é igual ao meu? Conecte-se aqui:",
+                "url":"nerd.html"
+
+            },
+
+            "vainaonda":
+            {
+                "titulo":"TAMO JUNTO",
+                "purpleBox" : "Você é aquele que busca tecnologia <strong>EM QUALQUER LUGAR.</strong>",
+                "texto" : "Estudar em grupo pra prova, chamar a galera pra balada ou curtir aquele descanso merecido? Seja qual for a parada, você tá sempre on e curte participar de tudo o que for rolar.",
+                "logitech" : "Pra curtir seu volta às aulas bem conectado, a Logi criou uma lista que tem de tudo um pouco só pra você aqui, oh!",
+                "char" : "vainaonda.webp",
+                "shr":"TAMO MAIS QUE JUNTO 🤜💥🤛 - Olha que da hora esse Quiz que a Logitech e o Ninja do KaBuM! droparam pra gente descobrir seu estilo dentro da sala de aula. Acabei de fazer aqui e deu: ECLÉTICO. Vem fazer o seu também:",
+                "url":"vainaonda.html"
+            }
+    }
+}
