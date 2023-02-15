@@ -11,7 +11,7 @@ cada pergunta, então eu retornava o length de cada valor e assim o resultado se
 A lógica para chegar no resultado foi simples, eu verificava se determinada resposta fosse maior que 3 e array das perguntas era maior que 5 e o resultado sairia.
 
 
-```
+```javascript
 document.querySelectorAll('.card ol a').forEach(resposta =>{
     resposta.addEventListener('click',function(){
 
